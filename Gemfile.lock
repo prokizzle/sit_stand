@@ -1,0 +1,18 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    daemons (1.1.9)
+    hitimes (1.2.2)
+    ice_cube (0.12.1)
+    terminal-notifier (1.6.2)
+    timers (4.0.1)
+      hitimes
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  daemons
+  ice_cube
+  terminal-notifier
+  timers
