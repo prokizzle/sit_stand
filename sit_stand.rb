@@ -1,7 +1,7 @@
 require 'timers'
 require 'daemons'
 
-class Fixnum
+Fixnum.class_eval do
   def seconds
     self
   end
